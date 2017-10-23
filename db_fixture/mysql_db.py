@@ -86,3 +86,5 @@ if __name__ == '__main__':
     db.clear(table_name)
     db.insert(table_name, data)
     db.close()
+
+   # comment
