@@ -191,9 +191,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-10-21 14:32:27</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.861639</p>
-<p class='attribute'><strong>Status:</strong> Pass 3</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-02-19 20:04:02</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.069558</p>
+<p class='attribute'><strong>Status:</strong> Pass 1 Failure 1</p>
 
 <p class='description'>Implementation  with: </p>
 </div>
@@ -224,43 +224,64 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>test_block.Test</td>
-    <td>2</td>
-    <td>2</td>
+    <td>test_like.Test</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_block1</div></td>
+    <td class='none'><div class='testcase'>test_program_title</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_block2</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr class='passClass'>
-    <td>test_program.Test</td>
-    <td>1</td>
+<tr class='failClass'>
+    <td>test_viewlist.Test</td>
     <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_program1</div></td>
-    <td colspan='5' align='center'>pass</td>
+<tr id='ft2.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_viewlist</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        fail</a>
+
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: Traceback (most recent call last):
+  File "/Users/jingu/Documents/deploy/InterfaceAutoTest/test_cases/test_viewlist.py", line 31, in test_viewlist
+    self.assertEqual(self.result['body']['list'][0]['userName'],u'蒋谷')
+AssertionError: '静测0219伯母' != '蒋谷'
+- 静测0219伯母
++ 蒋谷
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>3</td>
-    <td class="text text-success">3</td>
-    <td class="text text-danger">0</td>
+    <td>2</td>
+    <td class="text text-success">1</td>
+    <td class="text text-danger">1</td>
     <td class="text text-warning">0</td>
     <td>&nbsp;</td>
 </tr>

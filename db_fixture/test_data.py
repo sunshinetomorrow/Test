@@ -9,24 +9,34 @@ except ImportError:
 
 
 # create data
-datas = {
-    'program':[
 
-          {'id': 5, 'match_id': '111', 'title': '节目测试1', 'brief': '节目测试1',
-                'image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a',
-                'large_image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a'},
-          {'id': 6, 'match_id': '123', 'title': '新中潮客栈', 'brief': '欣嫂回归，大差不差',
-                'image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a',
-                'large_image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a'},
-          {'id': 7, 'match_id': '123', 'title': 'test节目', 'brief': '',
-                'image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a',
-                'large_image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a'},
-          {'id': 8, 'match_id': '123', 'title': '测试节目', 'brief': '',
-                'image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a',
-                'large_image': 'http://image.sports.baofeng.com/63970a88457529ec9ad75c74968ba50a'}
+datas = {
+    't_view':[
+
+        {'content_id': '133456092', 'content_type': 8,'user_id':'test001','baby_id':'test001','student_id':'test001',
+           'user_type':1}
+        # ,
+        # {'content_id': '123456093', 'content_type': 8, 'user_id': 'test002', 'baby_id': 'test002','student_id': 'test002',
+        #  'user_type': 1}
+
     ],
 
+
 }
+
+#测试dbcomment2库，表t_user_1的数据
+# datas = {
+#     't_user_1':[
+#
+#         {'user_id':'test001','user_type':1,'baby_id':'test001','name':'test','wx_name':'','image':'test001img',}
+#
+#     ],
+# 't_user':[
+#         {'user_id':'testuser001','user_type':1,'baby_id':'testuser001','name':'test','wx_name':''},
+#         {'user_id':'testuser001','user_type':1,'baby_id':'testuser002','name':'test','wx_name':''}
+#     ]
+#
+# }
 
 
 # Inster table datas
