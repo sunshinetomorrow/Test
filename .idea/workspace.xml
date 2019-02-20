@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81be59e2-b800-4d71-8827-6e20a53a3172" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/test_viewlist.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-21 14_24_44_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-21 14_28_23_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-21 14_30_27_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-21 14_32_27_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-21 14_33_19_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-22 22_03_06_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-22 22_03_14_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-23 10_13_04_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-23 11_36_59_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-23 11_39_56_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-23 11_43_00_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-23 11_53_39_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-10-23 14_34_07_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/test_block.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_cases/test_program.py" afterPath="$PROJECT_DIR$/test_cases/test_like.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_config.ini" afterPath="$PROJECT_DIR$/db_config.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_fixture/mysql_db.py" afterPath="$PROJECT_DIR$/db_fixture/mysql_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_fixture/test_data.py" afterPath="$PROJECT_DIR$/db_fixture/test_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtest.py" afterPath="$PROJECT_DIR$/runtest.py" />
-    </list>
+    <list default="true" id="81be59e2-b800-4d71-8827-6e20a53a3172" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +60,8 @@
       <file leaf-file-name="test_like.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_cases/test_like.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="277">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -1087,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_like.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="277">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
